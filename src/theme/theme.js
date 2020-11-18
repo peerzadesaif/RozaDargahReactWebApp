@@ -1,6 +1,6 @@
 import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import createBreakpoints from '@material-ui/core/styles/createBreakpoints';
-import { grey, orange, green } from './colors';
+import { grey, orange, green, white } from './colors';
 import { lato, ebgaramond } from './fonts';
 
 const breakpointValues = {
@@ -116,6 +116,7 @@ let theme = createMuiTheme({
   overrides: {
     MuiButton: {
       root: {
+        color: white[0] + ' !important',
         background: 'linear-gradient(to right, #57a68f 50%,#db9e30 50%) no-repeat scroll right bottom / 210% 100% #db9e30 !important',
         fontFamily: 'inherit',
         fontWeight: 'bold',

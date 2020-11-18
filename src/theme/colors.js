@@ -1,5 +1,8 @@
-export const grey = {
+
+export const white = {
   0: '#FFFFFF',
+};
+export const grey = {
   100: '#FDFCFC',
   200: '#F2F2F2',
   300: '#E1E1E1',

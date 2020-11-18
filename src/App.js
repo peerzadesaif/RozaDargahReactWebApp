@@ -1,7 +1,8 @@
 /* eslint no-use-before-define: 0 */  // 0 --> OFF // 2 --> OFF
+/* eslint-disable */
 import React from 'react';
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import { Container } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
