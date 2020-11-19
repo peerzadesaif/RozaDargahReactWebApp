@@ -90,9 +90,9 @@ export default function Home() {
                     justify="center"
                     alignItems="flex-start"
                 >
-                    {
+                    {/* {
                         ourPhilosophyCategory.map((x, i) => (<OurPhilosophy key={i} {...x} />))
-                    }
+                    } */}
 
                     {/* <Grid item xs={12} sm={3} md={3}>
                         2
