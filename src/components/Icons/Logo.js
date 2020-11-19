@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { SvgIcon } from '@material-ui/core';
 import logo from '../../assets/logo/DargahLogo.png';
