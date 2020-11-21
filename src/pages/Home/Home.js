@@ -106,6 +106,41 @@ export default function Home() {
                 </Grid>
             </Box>
             <Box px={{ xs: 3, sm: 5, md: 9 }} bgcolor='white' overflow='hidden'>
+            <Box
+              pt={{ xs: 5, md: 15 }}
+              pl={{ xs: 5, md: 15 }}
+              pr={{ xs: 5, md: 5 }}
+              pb={{ xs: 5, md: 10 }}
+            >
+              
+              <Box pt={3}>
+                <Typography variant='h3' gutterBottom>
+                Upcoming Event
+                </Typography>
+              </Box>
+              <Typography
+                variant='body1'
+                gutterBottom
+                className='small green300'
+              >
+               Ramadan Prep Workshop, More Details
+              </Typography>
+              <Typography
+                variant='body1'
+                gutterBottom
+                className='large'
+                color='textSecondary'
+              >
+               38 Days 12 Hours 12 Minutes 12 seconds
+              </Typography>
+              <Box pt={3}>
+                <Button color='secondary' variant='contained' className='alt'>
+                 All Events
+                </Button>
+              </Box>
+            </Box>
+            </Box>
+            <Box px={{ xs: 3, sm: 5, md: 9 }} bgcolor='white' overflow='hidden'>
                 4
             </Box>
         </Box>
