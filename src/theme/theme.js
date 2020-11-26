@@ -14,6 +14,7 @@ const breakpointValues = {
 const breakpoints = createBreakpoints(breakpointValues);
 
 let theme = createMuiTheme({
+  white: white[0] + ' !important',
   breakpoints: {
     values: breakpointValues,
   },
